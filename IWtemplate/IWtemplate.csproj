@@ -43,11 +43,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="css\.DS_Store" />
+    <None Include="css\bootstrap-grid.css.map" />
+    <None Include="css\bootstrap-grid.min.css.map" />
+    <None Include="css\bootstrap-reboot.css.map" />
+    <None Include="css\bootstrap-reboot.min.css.map" />
+    <None Include="css\bootstrap.css.map" />
+    <None Include="css\bootstrap.min.css.map" />
+    <None Include="js\bootstrap.bundle.js.map" />
+    <None Include="js\bootstrap.bundle.min.js.map" />
+    <None Include="js\bootstrap.js.map" />
+    <None Include="js\bootstrap.min.js.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\bootstrap-grid.css" />
+    <Content Include="css\bootstrap-grid.min.css" />
+    <Content Include="css\bootstrap-reboot.css" />
+    <Content Include="css\bootstrap-reboot.min.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="Index.html" />
+    <Content Include="js\bootstrap.bundle.js" />
+    <Content Include="js\bootstrap.bundle.min.js" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\bootstrap.min.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
